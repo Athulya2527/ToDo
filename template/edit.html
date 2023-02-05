@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form method="POST" style="margin-top: 150px; margin-left: 40%">
+    {% csrf_token %}
+
+    {{form.as_p}}
+    <button type="submit" class="btn btn-secondary" >Confirm</button>
+
+</form>
+
+{% endblock %}
