@@ -1,0 +1,20 @@
+.banner{
+background-color: #581845 ;
+width: 100%;
+height: 150px;
+margin-bottom: 15px;
+}
+.banner-text{
+left: 45%;
+top: 45%;
+position: absolute;
+transform: transform;
+color: lavender;
+font-family: Georgia;
+}
+body{
+background-color: #E0A5BC;
+}
+.{
+background-color: white;
+}
